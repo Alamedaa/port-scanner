@@ -1,6 +1,8 @@
 import socket
 from sys import argv
 
+# Creditos:Alameda
+
 
 # uso try e except pra capturar o erro e informa ao usuario modo de uso do script
 # try e except eh usado para capturar e manipular excecoes
