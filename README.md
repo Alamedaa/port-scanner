@@ -6,4 +6,4 @@ Podem modificar!
 
 
 # Prova do script rodando em uma alvo real
-<img width=1433" src="https://user-images.githubusercontent.com/43188449/91226875-00ee8480-e6fc-11ea-875d-148aa29b0de4.png">
+<img src="https://user-images.githubusercontent.com/43188449/91226875-00ee8480-e6fc-11ea-875d-148aa29b0de4.png">
