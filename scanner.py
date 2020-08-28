@@ -2,7 +2,9 @@ import socket
 from sys import argv
 
 # Creditos:Alameda
-
+"""
+Adicionei o 'getservbyport' para informa qual eh versao da porta que esta aberta na maquina do alvo
+"""
 
 # uso try e except pra capturar o erro e informa ao usuario modo de uso do script
 # try e except eh usado para capturar e manipular excecoes
