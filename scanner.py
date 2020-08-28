@@ -15,6 +15,6 @@ try:
 		c = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 		c.settimeout(0.1) #  Uso settimeout para nao fica esperando muito tempo se porta nao da resultado de = 0
 		if c.connect_ex((argv[1],porta)) == 0: # Verifico se a conexao do alvo e porta da igual 0, se for igual 0 eh por que esta aberta 
-			print(f"PORTA: {porta} ABERTA [+]") # Imprimo na tela
+			print(f"PORTA: {porta} {socket.getservbyport(porta)} ABERTA [+]") # Imprimo na tela
 except Exception as Error: # Uso except pra mostra na tela o erro e mensagem do uso do script pro usuario
 	print("Scanner De Portas\nModo de uso python3 script www.url.com\nSaida do erro >> ",Error," <<")
